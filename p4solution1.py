@@ -3,7 +3,7 @@
 # I spend a lot of time on it, so I don't want to discard all hard work 
 
 
-
+# I submit again, and this time. totally passed!
 
 
 class Solution(object):
