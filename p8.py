@@ -33,5 +33,5 @@ class Solution(object):
             return N 
 
 if __name__ == '__main__':
-    Solution = Solution()
-    print Solution.myAtoi(" +435435 jfldsjflsdflksdjfj")
+    
+    print Solution().myAtoi(" +435435 jfldsjflsdflksdjfj")
