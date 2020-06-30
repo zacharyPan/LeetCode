@@ -5,9 +5,7 @@
 class Solution(object):
     
     def palindromicCheck(self, s):
-        print s, len(s)/2
         for i in range(0, len(s)/2):
-            print s[i], s[-1-i]
             if s[i] != s[-1-i]:          
                 return False
         return True
@@ -27,5 +25,9 @@ class Solution(object):
                 if self.palindromicCheck(s[i:j]) and len(s[i:j])> len(MaxS):
                     MaxS = s[i:j]
         return MaxS
-                    
+
+if __name__ == '__main__':
+
+    
+    print Solution().longestPalindrome("dlkfjdlsjfaaaldsjfldsjkfldsjkflkdsj")       
                 

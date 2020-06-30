@@ -31,5 +31,6 @@ class Solution(object):
         return newRow
 
 if __name__ == '__main__':
-    s = Solution()
-    print s.convert("sdfdsfsdfdsfdsfdsf",4)
+
+    
+    print Solution().convert("dlkfjdlsjfldsjfldsjkfldsjkflkdsj",3)

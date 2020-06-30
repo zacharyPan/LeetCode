@@ -58,5 +58,8 @@ class Solution(object):
         else:
             return float(goo+hoo)/float(2)
             
-            
+if __name__ == '__main__':
+
+    
+    print Solution().findMedianSortedArrays([4,5,6],[1,2,3,19])    
             
